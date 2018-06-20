@@ -2,7 +2,7 @@
 
 # Definition for ipset binary path
 # Not needed to be defined by default - `ipset` from $PATH will be used
-#IPSET_BIN=/usr/sbin/ipset
+IPSET_BIN=/sbin/ipset
 
 # Should configuration files be splitted: one file for one set or not?
 # If "yes" - each set will be stored in its own file named "/etc/ipset/<setname>.set"
